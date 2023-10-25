@@ -1,0 +1,781 @@
+26.08.23 22:03:31.905	================================================================================
+26.08.23 22:03:31.907	Trace Log for Solution4.Win.exe is started
+26.08.23 22:03:31.908	================================================================================
+26.08.23 22:03:31.909	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.1.3.0
+	eXpressApp File Version: 20.1.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.08.23 22:03:32.073	Initialize application
+=======================
+26.08.23 22:03:32.075		Command line arguments: 
+		C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+26.08.23 22:03:32.289	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.08.23 22:03:32.310	Stack trace:
+   konum: DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   konum: DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   konum: System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   konum: DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   konum: DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   konum: DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   konum: DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   konum: System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   konum: DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   konum: Solution4.Win.Solution4WindowsFormsApplication.InitializeComponent() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.Designer.cs içinde: satır 66
+   konum: Solution4.Win.Solution4WindowsFormsApplication..ctor() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.cs içinde: satır 30
+   konum: Solution4.Win.Program.Main() C:\Users\asus\source\repos\Solution4\Solution4.Win\Program.cs içinde: satır 32
+
+26.08.23 22:03:33.319	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.08.23 22:03:33.323	--------------------------------------------------------------------------------
+							
+
+26.08.23 22:03:33.346	Resolve the 'DevExpress.BonusSkins.v20.1, Version=20.1.3.0' assembly
+26.08.23 22:03:33.358	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.ExpressApp.Chart.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v20.1.dll
+	DevExpress.ExpressApp.Chart.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Win.v20.1.dll
+	DevExpress.ExpressApp.Objects.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Validation.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.dll
+	DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1.Extensions\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=tr, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_tr_b77a5c561934e089\mscorlib.resources.dll
+	Solution4.Module, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.dll
+	Solution4.Module.Win, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.Win.dll
+	Solution4.Win, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+26.08.23 22:03:33.574	SetupModules
+26.08.23 22:03:33.734	Customize TypesInfo
+26.08.23 22:03:36.007		preferredLanguageName: (User language)
+								userLanguageName: tr-TR
+
+26.08.23 22:03:36.010		preferredLanguageName: (User language)
+								userFormattingCultureName: tr-TR
+								selectedFormattingCultureName: 
+
+26.08.23 22:03:36.304	--------------------------------------------------------------------------------
+							Start logon process
+
+26.08.23 22:03:36.313	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.08.23 22:03:36.316		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+26.08.23 22:03:36.316		ConnectionString: 
+26.08.23 22:03:36.921	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.08.23 22:03:38.271		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+26.08.23 22:03:38.607	--------------------------------------------------------------------------------
+							Logon successful
+
+26.08.23 22:03:38.616	--------------------------------------------------------------------------------
+							Logon completed
+
+26.08.23 22:03:38.689		startUpActions: 0
+26.08.23 22:03:38.764	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.08.23 22:03:38.877	Generate default Model for Action containers
+26.08.23 22:03:39.948	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:03:39.950		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:03:39.951		SelectedItem: Stations
+26.08.23 22:03:41.688	Action 'ShowNavigationItem' done
+26.08.23 22:03:42.492	Application startup done
+=========================
+26.08.23 22:03:42.493	Application running
+====================
+26.08.23 22:04:01.591	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:04:01.593		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+26.08.23 22:04:01.593		SelectedItem: Stations
+26.08.23 22:04:02.280	Action 'New' done
+26.08.23 22:04:07.079	'Kod' property editor: new value is '001'
+26.08.23 22:04:17.561	'Sehir' property editor: new value is 'Eskişehir'
+26.08.23 22:04:25.578	'BirimFiyat' property editor: new value is '10'
+26.08.23 22:05:12.423	'Enlem' property editor: new value is '39,7833'
+26.08.23 22:05:39.442	'Boylam' property editor: new value is '30,5167'
+26.08.23 22:05:39.446	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:05:39.446		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(855e032e-822b-4f94-b74a-d96dcad71832)
+
+26.08.23 22:05:39.739	Window closing: Stations
+26.08.23 22:05:39.777	Window closed: Stations
+26.08.23 22:05:39.921	Action 'SaveAndClose' done
+26.08.23 22:05:46.592	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:05:46.594		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:05:46.595		SelectedItem: Dashboards
+26.08.23 22:05:46.836	Action 'ShowNavigationItem' done
+26.08.23 22:05:48.439	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:05:48.440		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Dashboard
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+26.08.23 22:05:48.440		SelectedItem: Dashboard
+26.08.23 22:06:03.600	'DataType' property editor: new value is 'Solution4.Module.BusinessObjects.Stations'
+26.08.23 22:06:06.114	'DataType' property editor: new value is 'Solution4.Module.BusinessObjects.Stations'
+26.08.23 22:07:34.392	Action 'New' done
+26.08.23 22:07:37.925	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.08.23 22:07:42.503	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:07:42.503		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:07:42.505		SelectedItem: Stations
+26.08.23 22:07:42.686	Action 'ShowNavigationItem' done
+26.08.23 22:07:42.733	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:07:42.735		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:07:42.735		SelectedItem: Stations
+26.08.23 22:07:42.749	Action 'ShowNavigationItem' done
+26.08.23 22:07:46.103	Window closing: Dashboard
+26.08.23 22:07:46.141	Window closed: Dashboard
+26.08.23 22:07:48.652	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:07:48.653		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(855e032e-822b-4f94-b74a-d96dcad71832)
+
+26.08.23 22:07:48.655		SelectedItem: Stations
+26.08.23 22:07:48.817	Action 'New' done
+26.08.23 22:07:53.697	'Kod' property editor: new value is '002'
+26.08.23 22:08:01.023	'Sehir' property editor: new value is 'İstanbul'
+26.08.23 22:08:06.423	'BirimFiyat' property editor: new value is '13'
+26.08.23 22:08:32.264	'Enlem' property editor: new value is '40,0122'
+26.08.23 22:08:59.823	'Boylam' property editor: new value is '28,976'
+26.08.23 22:08:59.825	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:08:59.826		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(54ae0314-ed87-4919-8b25-e4b469095632)
+
+26.08.23 22:08:59.873	Window closing: Stations
+26.08.23 22:08:59.875	Window closed: Stations
+26.08.23 22:08:59.942	Action 'SaveAndClose' done
+26.08.23 22:09:02.396	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:09:02.397		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(54ae0314-ed87-4919-8b25-e4b469095632)
+
+26.08.23 22:09:02.397		SelectedItem: Stations
+26.08.23 22:09:02.574	Action 'New' done
+26.08.23 22:09:07.716	'Kod' property editor: new value is '003'
+26.08.23 22:09:13.360	'Sehir' property editor: new value is 'Ankara'
+26.08.23 22:09:19.774	'BirimFiyat' property editor: new value is '11'
+26.08.23 22:09:48.099	'Enlem' property editor: new value is '39,9272'
+26.08.23 22:10:10.253	'Boylam' property editor: new value is '32,8644'
+26.08.23 22:10:10.257	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:10:10.257		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(f846a3b1-4264-48de-bc9d-57802fd501bd)
+
+26.08.23 22:10:10.300	Window closing: Stations
+26.08.23 22:10:10.300	Window closed: Stations
+26.08.23 22:10:10.367	Action 'SaveAndClose' done
+26.08.23 22:10:21.756	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:10:21.756		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:10:21.758		SelectedItem: Dashboards
+26.08.23 22:10:21.930	Action 'ShowNavigationItem' done
+26.08.23 22:10:25.706	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:10:25.706		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Dashboard
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Dashboard
+
+26.08.23 22:10:26.229	Action 'ListViewShowObject' done
+26.08.23 22:10:43.677	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:10:43.681		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:10:43.681		SelectedItem: Stations
+26.08.23 22:10:43.795	Action 'ShowNavigationItem' done
+26.08.23 22:10:43.894	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:10:43.895		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:10:43.897		SelectedItem: Stations
+26.08.23 22:10:43.899	Action 'ShowNavigationItem' done
+26.08.23 22:12:02.112	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:12:02.114		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(54ae0314-ed87-4919-8b25-e4b469095632)
+
+26.08.23 22:12:02.301	Action 'ListViewShowObject' done
+26.08.23 22:12:18.175	'Enlem' property editor: new value is '41,0122'
+26.08.23 22:12:18.178	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:12:18.178		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(54ae0314-ed87-4919-8b25-e4b469095632)
+
+26.08.23 22:12:18.269	Window closing: Stations
+26.08.23 22:12:18.271	Window closed: Stations
+26.08.23 22:12:18.330	Action 'SaveAndClose' done
+26.08.23 22:12:21.543	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:12:21.545		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(54ae0314-ed87-4919-8b25-e4b469095632)
+
+26.08.23 22:12:21.546		SelectedItem: Stations
+26.08.23 22:12:21.715	Action 'New' done
+26.08.23 22:12:49.565	'Kod' property editor: new value is '004'
+26.08.23 22:12:53.691	'Sehir' property editor: new value is 'Kütahya'
+26.08.23 22:12:59.930	'BirimFiyat' property editor: new value is '9'
+26.08.23 22:13:30.488	'Enlem' property editor: new value is '39,4167'
+26.08.23 22:13:49.824	'Boylam' property editor: new value is '29,9833'
+26.08.23 22:13:49.825	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:13:49.825		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Stations
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution4.Module.BusinessObjects.Stations(add15b99-cb65-4d63-b1b3-3a24c1bec48d)
+
+26.08.23 22:13:49.861	Window closing: Stations
+26.08.23 22:13:49.864	Window closed: Stations
+26.08.23 22:13:49.917	Action 'SaveAndClose' done
+26.08.23 22:13:51.942	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:13:51.944		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.08.23 22:13:51.944		SelectedItem: Dashboards
+26.08.23 22:13:52.036	Action 'ShowNavigationItem' done
+26.08.23 22:13:58.240	Window closing: Dashboard
+26.08.23 22:13:58.241	Window closed: Dashboard
+26.08.23 22:14:01.233	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:14:01.233		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Dashboard
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Dashboard
+
+26.08.23 22:14:01.723	Action 'ListViewShowObject' done
+26.08.23 22:14:06.533	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:14:06.534		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ShowDashboardDesigner
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.Dashboards.Win.WinEditDashboardController
+								Context.Name: 
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Dashboard
+
+26.08.23 22:23:20.645	Action 'ShowDashboardDesigner' done
+26.08.23 22:23:21.904	Window closing: Stations
+26.08.23 22:23:21.908	Window closing: Dashboard
+26.08.23 22:23:21.910	Window closing: Dashboard
+26.08.23 22:23:21.912	Window closing: Dashboard - Solution4
+26.08.23 22:23:22.003	Window closed: Stations
+26.08.23 22:23:22.004	Window closed: Dashboard
+26.08.23 22:23:22.005	Window closed: Dashboard
+26.08.23 22:23:22.007	Window closed: Dashboard - Solution4
+26.08.23 22:23:24.231	Window closing: Stations
+26.08.23 22:23:24.233	Window closing: Dashboard
+26.08.23 22:23:24.235	Window closing: Dashboard - Solution4
+26.08.23 22:23:24.372	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.08.23 22:23:24.442	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.08.23 22:23:24.482	Window closed: Stations
+26.08.23 22:23:24.484	Window closed: Dashboard
+26.08.23 22:23:24.486	Window closed: Dashboard - Solution4
+26.08.23 22:23:24.799	Save model changes
+===================
+26.08.23 22:23:24.815	Save model changes
+===================
+26.08.23 22:23:24.839	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.08.23 22:23:24.842	Application stopping
+=====================
+26.08.23 22:23:31.710	================================================================================
+26.08.23 22:23:31.711	Trace Log for Solution4.Win.exe is started
+26.08.23 22:23:31.711	================================================================================
+26.08.23 22:23:31.713	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.1.3.0
+	eXpressApp File Version: 20.1.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.08.23 22:23:31.961	Initialize application
+=======================
+26.08.23 22:23:31.963		Command line arguments: 
+		C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+26.08.23 22:23:32.067	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.08.23 22:23:32.076	Stack trace:
+   konum: DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   konum: DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   konum: System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   konum: DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   konum: DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   konum: DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   konum: DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   konum: System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   konum: DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   konum: Solution4.Win.Solution4WindowsFormsApplication.InitializeComponent() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.Designer.cs içinde: satır 66
+   konum: Solution4.Win.Solution4WindowsFormsApplication..ctor() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.cs içinde: satır 30
+   konum: Solution4.Win.Program.Main() C:\Users\asus\source\repos\Solution4\Solution4.Win\Program.cs içinde: satır 32
+
+26.08.23 22:23:32.941	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.08.23 22:23:32.943	--------------------------------------------------------------------------------
+							
+
+26.08.23 22:23:32.960	Resolve the 'DevExpress.BonusSkins.v20.1, Version=20.1.3.0' assembly
+26.08.23 22:23:32.972	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.BonusSkins.v20.1.dll
+	DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.ExpressApp.Chart.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v20.1.dll
+	DevExpress.ExpressApp.Chart.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Win.v20.1.dll
+	DevExpress.ExpressApp.Objects.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Validation.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.dll
+	DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1.Extensions\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=tr, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_tr_b77a5c561934e089\mscorlib.resources.dll
+	Solution4.Module, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.dll
+	Solution4.Module.Win, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.Win.dll
+	Solution4.Win, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+26.08.23 22:23:33.177	SetupModules
+26.08.23 22:23:33.290	Customize TypesInfo
+26.08.23 22:23:35.318		preferredLanguageName: (User language)
+								userLanguageName: tr-TR
+
+26.08.23 22:23:35.320		preferredLanguageName: (User language)
+								userFormattingCultureName: tr-TR
+								selectedFormattingCultureName: 
+
+26.08.23 22:23:35.574	--------------------------------------------------------------------------------
+							Start logon process
+
+26.08.23 22:23:35.583	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.08.23 22:23:35.585		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+26.08.23 22:23:35.587		ConnectionString: 
+26.08.23 22:23:36.115	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.08.23 22:23:36.134		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+26.08.23 22:23:36.177	--------------------------------------------------------------------------------
+							Logon successful
+
+26.08.23 22:23:36.187	--------------------------------------------------------------------------------
+							Logon completed
+
+26.08.23 22:23:36.220		startUpActions: 0
+26.08.23 22:23:36.261	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.08.23 22:23:36.326	Generate default Model for Action containers
+26.08.23 22:23:37.410	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.08.23 22:23:37.443	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+26.08.23 22:23:41.487	Application startup done
+=========================
+26.08.23 22:23:41.488	Application running
+====================
+26.08.23 22:25:41.453	--------------------------------------------------------------------------------
+							Execute action
+
+26.08.23 22:25:41.455		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ShowDashboardDesigner
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.Dashboards.Win.WinEditDashboardController
+								Context.Name: 
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Dashboard
+
+26.08.23 22:36:34.383	Action 'ShowDashboardDesigner' done
+26.08.23 22:36:34.881	Window closing: Dashboard
+26.08.23 22:36:34.887	Window closing: Dashboard - Solution4
+26.08.23 22:36:34.982	Window closed: Dashboard
+26.08.23 22:36:34.985	Window closed: Dashboard - Solution4
+26.08.23 22:36:35.272	Save model changes
+===================
+26.08.23 22:36:35.288	Save model changes
+===================
+26.08.23 22:36:35.320	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.08.23 22:36:35.324	Application stopping
+=====================
+25.10.23 12:30:32.531	================================================================================
+25.10.23 12:30:32.531	Trace Log for Solution4.Win.exe is started
+25.10.23 12:30:32.531	================================================================================
+25.10.23 12:30:32.531	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.1.3.0
+	eXpressApp File Version: 20.1.3.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+25.10.23 12:30:32.702	Initialize application
+=======================
+25.10.23 12:30:32.704		Command line arguments: 
+		C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+25.10.23 12:30:32.830	The ValueManagerType is initialized by the default value: SimpleValueManager.
+25.10.23 12:30:32.846	Stack trace:
+   konum: DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   konum: DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   konum: System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   konum: DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   konum: DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   konum: DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   konum: DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   konum: System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   konum: DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   konum: Solution4.Win.Solution4WindowsFormsApplication.InitializeComponent() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.Designer.cs içinde: satır 66
+   konum: Solution4.Win.Solution4WindowsFormsApplication..ctor() C:\Users\asus\source\repos\Solution4\Solution4.Win\WinApplication.cs içinde: satır 30
+   konum: Solution4.Win.Program.Main() C:\Users\asus\source\repos\Solution4\Solution4.Win\Program.cs içinde: satır 32
+
+25.10.23 12:30:33.749	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+25.10.23 12:30:33.749	--------------------------------------------------------------------------------
+							
+
+25.10.23 12:30:33.765	Resolve the 'DevExpress.BonusSkins.v20.1, Version=20.1.3.0' assembly
+25.10.23 12:30:33.765	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.Desktop.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.ExpressApp.Chart.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.v20.1.dll
+	DevExpress.ExpressApp.Chart.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.v20.1.dll
+	DevExpress.ExpressApp.Dashboards.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Dashboards.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Dashboards.Win.v20.1.dll
+	DevExpress.ExpressApp.Objects.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v20.1.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Validation.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.dll
+	DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1.Extensions\v4.0_20.1.3.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.Extensions.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=tr, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_tr_b77a5c561934e089\mscorlib.resources.dll
+	Solution4.Module, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.dll
+	Solution4.Module.Win, Version=1.0.8638.39704, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Module.Win.dll
+	Solution4.Win, Version=1.0.8698.22515, Culture=neutral, PublicKeyToken=null, Location=C:\Users\asus\source\repos\Solution4\Solution4.Win\bin\Debug\Solution4.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+25.10.23 12:30:33.939	SetupModules
+25.10.23 12:30:34.085	Customize TypesInfo
+25.10.23 12:30:36.088		preferredLanguageName: (User language)
+								userLanguageName: tr-TR
+
+25.10.23 12:30:36.088		preferredLanguageName: (User language)
+								userFormattingCultureName: tr-TR
+								selectedFormattingCultureName: 
+
+25.10.23 12:30:36.290	--------------------------------------------------------------------------------
+							Start logon process
+
+25.10.23 12:30:36.290	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+25.10.23 12:30:36.305		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+25.10.23 12:30:36.305		ConnectionString: 
+25.10.23 12:30:37.140	--------------------------------------------------------------------------------
+							UpdateDB
+
+25.10.23 12:30:37.155		ConnectionString: XpoProvider=Postgres;Server=Localhost;User ID=postgres;Database=Solution4;XpoDataStorePool=True;
+25.10.23 12:30:37.189	--------------------------------------------------------------------------------
+							Logon successful
+
+25.10.23 12:30:37.218	--------------------------------------------------------------------------------
+							Logon completed
+
+25.10.23 12:30:37.250		startUpActions: 0
+25.10.23 12:30:37.289	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+25.10.23 12:30:37.345	Generate default Model for Action containers
+25.10.23 12:30:38.309	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+25.10.23 12:30:38.324	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+25.10.23 12:30:45.275	Application startup done
+=========================
+25.10.23 12:30:45.275	Application running
+====================
+25.10.23 12:30:52.055	--------------------------------------------------------------------------------
+							Execute action
+
+25.10.23 12:30:52.055		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+25.10.23 12:30:52.055		SelectedItem: Stations
+25.10.23 12:30:54.059	Action 'ShowNavigationItem' done
+25.10.23 12:31:01.123	--------------------------------------------------------------------------------
+							Execute action
+
+25.10.23 12:31:01.123		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+25.10.23 12:31:01.123		SelectedItem: Dashboards
+25.10.23 12:31:01.297	Action 'ShowNavigationItem' done
+25.10.23 12:31:03.298	--------------------------------------------------------------------------------
+							Execute action
+
+25.10.23 12:31:03.298		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+25.10.23 12:31:03.298		SelectedItem: Stations
+25.10.23 12:31:03.377	Action 'ShowNavigationItem' done
+25.10.23 12:31:04.653	--------------------------------------------------------------------------------
+							Execute action
+
+25.10.23 12:31:04.653		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+25.10.23 12:31:04.653		SelectedItem: Dashboards
+25.10.23 12:31:04.748	Action 'ShowNavigationItem' done
+25.10.23 12:31:05.647	--------------------------------------------------------------------------------
+							Execute action
+
+25.10.23 12:31:05.647		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Dashboard
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Dashboard
+
+25.10.23 12:31:05.678	Action 'ListViewShowObject' done
+25.10.23 12:31:08.846	Window closing: Dashboard
+25.10.23 12:31:08.846	Window closing: Stations
+25.10.23 12:31:08.862	Window closing: Dashboard
+25.10.23 12:31:08.862	Window closing: Dashboard - Solution4
+25.10.23 12:31:08.927	Window closed: Dashboard
+25.10.23 12:31:08.927	Window closed: Stations
+25.10.23 12:31:08.927	Window closed: Dashboard
+25.10.23 12:31:08.927	Window closed: Dashboard - Solution4
+25.10.23 12:31:09.242	Save model changes
+===================
+25.10.23 12:31:09.258	Save model changes
+===================
+25.10.23 12:31:09.258	--------------------------------------------------------------------------------
+							Logoff completed
+
+25.10.23 12:31:09.258	Application stopping
+=====================
